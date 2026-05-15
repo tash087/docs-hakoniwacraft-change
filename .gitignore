@@ -1,4 +1,7 @@
-# 依存関係関連
+dist/
+build/
+
+# d依存関係関連
 node_modules/
 package-lock.json
 

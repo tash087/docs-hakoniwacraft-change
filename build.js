@@ -24,19 +24,6 @@ const documents = [
         updatedAt: '2026-02-15'
     },
     {
-        id: 'terms-easy',
-        path: '/docs/terms-easy',
-        file: 'terms-easy.md',
-        lang: 'ja',
-        category: 'basic',
-        categoryName: '基本規約',
-        title: 'サーバーのルール（やさしい解説）',
-        description: '利用規約をやさしく解説した入門編です。サーバーの基本ルールをわかりやすく説明しています。',
-        icon: '📖',
-        order: 2,
-        updatedAt: '2026-02-15'
-    },
-    {
         id: 'ban-policy',
         path: '/docs/ban-policy',
         file: 'ban-policy.md',
@@ -46,7 +33,7 @@ const documents = [
         title: '処罰規定およびBANガイドライン',
         description: 'サーバーの秩序を著しく乱す行為、または利用規約に抵触する重大な違反行為に対する処罰の基準を定めます。',
         icon: '⚖️',
-        order: 3,
+        order: 2,
         updatedAt: '2026-03-19'
     },
     {
@@ -59,7 +46,7 @@ const documents = [
         title: 'プライバシーポリシー',
         description: 'プレイヤーの皆様が安心して建築や冒険を楽しめるよう、個人情報の保護およびデータの適切な管理を徹底します。',
         icon: '🔒',
-        order: 4,
+        order: 3,
         updatedAt: '2026-03-30'
     },
     {
@@ -72,7 +59,7 @@ const documents = [
         title: '知的財産権およびコンテンツ利用規定',
         description: '箱庭クラフトが提供するコンテンツの利用許諾範囲、およびユーザーがサーバー内で創作する建造物に関する取り扱いを定めます。',
         icon: '🎨',
-        order: 5,
+        order: 4,
         updatedAt: '2026-03-30'
     },
     {
@@ -85,7 +72,7 @@ const documents = [
         title: '生成AIの利用に関する規定',
         description: '運営業務において生成AIを利用する際の基準と責任の所在を明らかにします。',
         icon: '🤖',
-        order: 6,
+        order: 5,
         updatedAt: '2026-03-21'
     },
     {
@@ -98,7 +85,7 @@ const documents = [
         title: '運営規約',
         description: '運営チームが制作活動に専念し、円滑なコミュニティ運営を行うための環境を整備するためのルールです。',
         icon: '👥',
-        order: 7,
+        order: 6,
         updatedAt: '2026-03-20'
     },
     {
@@ -111,21 +98,8 @@ const documents = [
         title: '寄付規約',
         description: 'サーバー維持のためのサポート（寄付）を行う全ての利用者に適用される規約です。',
         icon: '💝',
-        order: 8,
+        order: 7,
         updatedAt: '2026-02-15'
-    },
-    {
-        id: 'tokushoho',
-        path: '/docs/tokushoho',
-        file: 'tokushoho.md',
-        lang: 'ja',
-        category: 'basic',
-        categoryName: '基本規約',
-        title: '特定商取引法に基づく表記',
-        description: '寄付に関する法定表記です。運営組織名、責任者、問い合わせ先などを掲載しています。',
-        icon: '🏪',
-        order: 9,
-        updatedAt: '2026-04-23'
     },
 
     // ==================== ガイドライン ====================
@@ -143,32 +117,6 @@ const documents = [
         updatedAt: '2026-02-15'
     },
     {
-        id: 'definitions',
-        path: '/docs/definitions',
-        file: 'definitions.md',
-        lang: 'ja',
-        category: 'guideline',
-        categoryName: 'ガイドライン',
-        title: '語句および行動の詳細定義',
-        description: '利用規約に基づき「共同体の公益の尊重」と「私有財の秩序ある管理」を両立させるための具体的基準です。',
-        icon: '🔍',
-        order: 2,
-        updatedAt: '2026-02-15'
-    },
-    {
-        id: 'definitions-easy',
-        path: '/docs/definitions-easy',
-        file: 'definitions-easy.md',
-        lang: 'ja',
-        category: 'guideline',
-        categoryName: 'ガイドライン',
-        title: 'みんなの行動ガイドライン（やさしい解説）',
-        description: '語句や行動の詳細定義をやさしく解説した入門編です。',
-        icon: '💡',
-        order: 3,
-        updatedAt: '2026-02-15'
-    },
-    {
         id: 'archit-guideline',
         path: '/docs/archit-guideline',
         file: 'archit-guideline.md',
@@ -178,7 +126,7 @@ const documents = [
         title: '建築ガイドライン',
         description: '建築活動に関する具体的な規定です。すべてのプレイヤーは自らの箱庭を慈しむとともに、本ガイドラインを遵守する義務を負います。',
         icon: '🏗️',
-        order: 4,
+        order: 2,
         updatedAt: '2026-02-15'
     },
     {
@@ -191,20 +139,7 @@ const documents = [
         title: '公共施設利用および整備に関するガイドライン',
         description: 'サーバー内の公共施設を適切に維持管理し、全てのプレイヤーが快適に利用するための基準です。',
         icon: '🏛️',
-        order: 5,
-        updatedAt: '2026-02-15'
-    },
-    {
-        id: 'public-easy',
-        path: '/docs/public-easy',
-        file: 'public-easy.md',
-        lang: 'ja',
-        category: 'guideline',
-        categoryName: 'ガイドライン',
-        title: '公共施設の使いかた・作りかた（やさしい解説）',
-        description: '公共施設ガイドラインをやさしく解説した入門編です。',
-        icon: '🏢',
-        order: 6,
+        order: 3,
         updatedAt: '2026-02-15'
     },
     {
@@ -217,21 +152,8 @@ const documents = [
         title: 'ショップ運営ガイドライン',
         description: 'サーバー内の経済活動および景観維持に関する詳細な基準です。',
         icon: '🛒',
-        order: 7,
+        order: 4,
         updatedAt: '2026-04-01'
-    },
-    {
-        id: 'donation-info',
-        path: '/docs/donation-info',
-        file: 'donation-info.md',
-        lang: 'ja',
-        category: 'guideline',
-        categoryName: 'ガイドライン',
-        title: '運営支援へのご協力',
-        description: 'サーバー運営を支援するための寄付ガイドです。支援方法やお礼について説明しています。',
-        icon: '🌱',
-        order: 8,
-        updatedAt: '2026-03-22'
     },
 
     // ==================== 制限緩和表 ====================
@@ -247,19 +169,6 @@ const documents = [
         icon: '📊',
         order: 1,
         updatedAt: '2026-03-07'
-    },
-    {
-        id: 'rank-limits-shop',
-        path: '/docs/rank-limits-shop',
-        file: 'rank-limits-shop.md',
-        lang: 'ja',
-        category: 'limits',
-        categoryName: '制限緩和表',
-        title: 'ランク別制限緩和表（ショップ区画）',
-        description: 'ショップ専用区画における、ランク別のエンティティ上限と建築高度制限の基準です。',
-        icon: '🏬',
-        order: 2,
-        updatedAt: '2026-02-15'
     },
 
     // ==================== 一覧 ====================
@@ -284,13 +193,13 @@ const categoryOrder = ['basic', 'guideline', 'limits', 'list'];
 // robots.txt
 const robotsTxt = `User-agent: *
 Allow: /
-Sitemap: https://docs-hknw.pages.dev/sitemap.xml`;
+Sitemap: https://docs.hknw.link/sitemap.xml`;
 
 // sitemap.xml生成
 function generateSitemap() {
     const urls = documents.map(doc => `
   <url>
-    <loc>https://docs-hknw.pages.dev${doc.path}</loc>
+    <loc>https://docs.hknw.link${doc.path}</loc>
     <lastmod>${doc.updatedAt}</lastmod>
     <priority>${doc.path === '/docs/terms' ? '1.0' : '0.8'}</priority>
   </url>`).join('');
@@ -897,8 +806,8 @@ body {
             <img src="/images/hakoniwa_craft_icon.png" alt="HAKONIWA Studio" class="logo-icon">
           </div>
           <div class="logo-text">
-            <span class="logo-main">HAKONIWA Link</span>
-            <span class="logo-sub">URL Shortener</span>
+            <span class="logo-main">HAKONIWA Craft</span>
+            <span class="logo-sub">Minecraft Server</span>
           </div>
         </a>
       </div>
@@ -973,8 +882,8 @@ body {
       </div>
     </div>
     <div class="footer-info">
-      <p>©箱庭クラフト 2025-2026 All rights reserved.>©箱庭クラフト 2025-2026 All rights reserved. </p>
-      <p>© 2026 HAKONIWA Studio All Rights Reserved.<br>Designed and Developed by HAKONIWA Studio.</p>
+      <p>© 2025-2026 箱庭クラフト All Rights Reserved.</p>
+      <p>Designed and Developed by HAKONIWA Studio.</p>
       <p>
         <a href="mailto:legal@hknw.link">legal@hknw.link</a> | 
         <a href="mailto:abuse@hknw.link">abuse@hknw.link</a>
@@ -1892,8 +1801,8 @@ body {
             <img src="/images/hakoniwa_craft_icon.png" alt="HAKONIWA Studio" class="logo-icon">
           </div>
           <div class="logo-text">
-            <span class="logo-main">HAKONIWA Link</span>
-            <span class="logo-sub">URL Shortener</span>
+            <span class="logo-main">HAKONIWA Craft</span>
+            <span class="logo-sub">Minecraft Server</span>
           </div>
         </a>
       </div>

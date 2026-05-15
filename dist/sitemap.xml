@@ -2,102 +2,67 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
   <url>
-    <loc>https://docs-hknw.pages.dev/docs/terms</loc>
+    <loc>https://docs.hknw.link/docs/terms</loc>
     <lastmod>2026-02-15</lastmod>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://docs-hknw.pages.dev/docs/terms-easy</loc>
-    <lastmod>2026-02-15</lastmod>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://docs-hknw.pages.dev/docs/ban-policy</loc>
+    <loc>https://docs.hknw.link/docs/ban-policy</loc>
     <lastmod>2026-03-19</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://docs-hknw.pages.dev/docs/privacy</loc>
+    <loc>https://docs.hknw.link/docs/privacy</loc>
     <lastmod>2026-03-30</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://docs-hknw.pages.dev/docs/ip-policy</loc>
+    <loc>https://docs.hknw.link/docs/ip-policy</loc>
     <lastmod>2026-03-30</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://docs-hknw.pages.dev/docs/ai-policy</loc>
+    <loc>https://docs.hknw.link/docs/ai-policy</loc>
     <lastmod>2026-03-21</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://docs-hknw.pages.dev/docs/staff-terms</loc>
+    <loc>https://docs.hknw.link/docs/staff-terms</loc>
     <lastmod>2026-03-20</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://docs-hknw.pages.dev/docs/donation-policy</loc>
+    <loc>https://docs.hknw.link/docs/donation-policy</loc>
     <lastmod>2026-02-15</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://docs-hknw.pages.dev/docs/tokushoho</loc>
-    <lastmod>2026-04-23</lastmod>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://docs-hknw.pages.dev/docs/rules</loc>
+    <loc>https://docs.hknw.link/docs/rules</loc>
     <lastmod>2026-02-15</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://docs-hknw.pages.dev/docs/definitions</loc>
+    <loc>https://docs.hknw.link/docs/archit-guideline</loc>
     <lastmod>2026-02-15</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://docs-hknw.pages.dev/docs/definitions-easy</loc>
+    <loc>https://docs.hknw.link/docs/public-facility</loc>
     <lastmod>2026-02-15</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://docs-hknw.pages.dev/docs/archit-guideline</loc>
-    <lastmod>2026-02-15</lastmod>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://docs-hknw.pages.dev/docs/public-facility</loc>
-    <lastmod>2026-02-15</lastmod>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://docs-hknw.pages.dev/docs/public-easy</loc>
-    <lastmod>2026-02-15</lastmod>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://docs-hknw.pages.dev/docs/shop-guideline</loc>
+    <loc>https://docs.hknw.link/docs/shop-guideline</loc>
     <lastmod>2026-04-01</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://docs-hknw.pages.dev/docs/donation-info</loc>
-    <lastmod>2026-03-22</lastmod>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://docs-hknw.pages.dev/docs/rank-limits</loc>
+    <loc>https://docs.hknw.link/docs/rank-limits</loc>
     <lastmod>2026-03-07</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://docs-hknw.pages.dev/docs/rank-limits-shop</loc>
-    <lastmod>2026-02-15</lastmod>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://docs-hknw.pages.dev/docs/terms-list</loc>
+    <loc>https://docs.hknw.link/docs/terms-list</loc>
     <lastmod>2026-04-23</lastmod>
     <priority>0.8</priority>
   </url>

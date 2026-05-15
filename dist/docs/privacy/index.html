@@ -2,7 +2,7 @@
 <html lang="ja">
 <head>
   <meta charset="UTF-8">
-  <link rel="icon" href="/images/hakoniwa_link_icon.png" type="image/png">
+  <link rel="icon" href="/images/hakoniwa_craft_icon.png" type="image/png">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="プレイヤーの皆様が安心して建築や冒険を楽しめるよう、個人情報の保護およびデータの適切な管理を徹底します。">
   <meta name="robots" content="index, follow">
@@ -687,8 +687,8 @@ body {
             <img src="/images/hakoniwa_craft_icon.png" alt="HAKONIWA Studio" class="logo-icon">
           </div>
           <div class="logo-text">
-            <span class="logo-main">HAKONIWA Link</span>
-            <span class="logo-sub">URL Shortener</span>
+            <span class="logo-main">HAKONIWA Craft</span>
+            <span class="logo-sub">Minecraft Server</span>
           </div>
         </a>
       </div>
@@ -738,7 +738,7 @@ body {
 
 <p>Minecraftサーバー<strong>「箱庭クラフト」</strong>は、プレイヤーの皆様が安心して建築や冒険を楽しめるよう、個人情報の保護およびデータの適切な管理を徹底いたします。</p>
 
-<p><strong>制定日：空白</strong><br><strong>最終改定日：2026年3月30日</strong></p>
+<p><strong>制定日：2026年3月30日</strong><br><strong>最終改定日：2026年5月10日</strong></p>
 
 <hr>
 
@@ -751,7 +751,7 @@ body {
 <li><strong>識別情報</strong>：Minecraftユーザー名（MCID）、UUID</li>
 <li><strong>接続情報</strong>：接続元IPアドレス、接続時刻、利用クライアントのバージョン</li>
 <li><strong>活動ログ</strong>：チャット履歴、コマンド実行履歴、ブロックの操作ログ、座標等</li>
-<li><strong>お問い合わせ・応募情報</strong>：メールアドレス、氏名（本名）、MCID、および送信時のIPアドレス</li>
+<li><strong>お問い合わせ・応募情報</strong>：メールアドレス、氏名（本名）、MCID</li>
 <li><strong>外部連携</strong>：DiscordユーザーID（連携時のみ）</li>
 </ul>
 
@@ -780,10 +780,20 @@ body {
 
 <hr>
 
-<h2>第3章：CookieおよびAIの利用に関する特記事項</h2>
+<h2>第3章：Cookie、アクセス解析、およびAIの利用に関する特記事項</h2>
 
-<h3>第6条（Cookieの利用）</h3>
-本サーバーのウェブサイトでは、寄付者用ログインフォーム等において、セッション維持および利便性向上のためCookieを使用することがあります。
+<h3>第6条（Cookieおよびブラウザ環境情報の取得・利用）</h3>
+<ol>
+<li>本サーバーのウェブサイトでは、寄付者用ログインフォーム等において、セッション維持および利便性向上のためCookieを使用することがあります。</li>
+<li>当運営が指定する特定のウェブサイト（アクセス分析やセキュリティ対策、ログイン等を行うページ）においては、サイトの適正な動作確認、多重アクセスの防止、不正接続の検知、およびアクセスの最適化を目的として、以下の端末情報およびブラウザ環境情報を自動的に取得・記録します。</li>
+</ol>
+<ul>
+<li><strong>ブラウザ・システム環境</strong>: ユーザーエージェント（UserAgent）、ブラウザの言語設定、プラットフォーム、アプリケーション名、アプリケーションコード名</li>
+<li><strong>画面・ディスプレイ仕様</strong>: 画面の横幅（screenWidth）・縦幅（screenHeight）、画面の色深度（screenColorDepth）、デバイスピクセル比（pixelRatio）</li>
+<li><strong>ハードウェア仕様</strong>: CPUの論理コア数（hardwareConcurrency）、搭載デバイスメモリの概算値（deviceMemory）</li>
+<li><strong>接続および設定状況</strong>: リンク元のURL（referrer）、Cookieの有効化有無（cookieEnabled）</li>
+<li><strong>時間設定</strong>: 接続元のタイムゾーン（timezone）、アクセス時の現地時間（localTime）</li>
+</ul>
 
 <h3>第7条（AIによるデータ処理と制限）</h3>
 <ul>
@@ -800,7 +810,7 @@ body {
 18歳未満の方が個人情報を提供される場合は、必ず保護者の同意を得た上で行ってください。
 
 <h3>第9条（安全管理措置）</h3>
-収集したデータへのアクセスは特定の管理職に限定し、漏洩防止のためのセキュリティ対策を継続的に実施します。
+収集したデータへのアクセスは特定の管理職（代表、副代表、管理部門長等）に限定し、漏洩防止のためのセキュリティ対策を継続的に実施します。
 
 <h3>第10条（照会・削除）</h3>
 自身の情報の開示・削除を希望される場合は、公式Discordより申請してください。本人確認の上、合理的な範囲で対応いたします。
@@ -816,14 +826,14 @@ body {
             <span>箱庭クラフト サーバー利用規約</span>
           </a>
         
-          <a href="/docs/terms-easy" class="related-link">
-            <span>📖</span>
-            <span>サーバーのルール（やさしい解説）</span>
-          </a>
-        
           <a href="/docs/ban-policy" class="related-link">
             <span>⚖️</span>
             <span>処罰規定およびBANガイドライン</span>
+          </a>
+        
+          <a href="/docs/ip-policy" class="related-link">
+            <span>🎨</span>
+            <span>知的財産権およびコンテンツ利用規定</span>
           </a>
         
       </div>
