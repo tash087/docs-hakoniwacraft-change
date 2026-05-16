@@ -21,7 +21,7 @@ const documents = [
         description: 'プレイヤー全員が自らの「箱庭」を慈しみ、安全かつ公平に創造を楽しめる環境を維持するための基本規約です。',
         icon: '📜',
         order: 1,
-        updatedAt: '2026-02-15'
+        updatedAt: '2026/05/10'
     },
     {
         id: 'ban-policy',
@@ -34,7 +34,7 @@ const documents = [
         description: 'サーバーの秩序を著しく乱す行為、または利用規約に抵触する重大な違反行為に対する処罰の基準を定めます。',
         icon: '⚖️',
         order: 2,
-        updatedAt: '2026-03-19'
+        updatedAt: '2026/05/10'
     },
     {
         id: 'privacy',
@@ -47,7 +47,7 @@ const documents = [
         description: 'プレイヤーの皆様が安心して建築や冒険を楽しめるよう、個人情報の保護およびデータの適切な管理を徹底します。',
         icon: '🔒',
         order: 3,
-        updatedAt: '2026-03-30'
+        updatedAt: '2026/05/10'
     },
     {
         id: 'ip-policy',
@@ -60,7 +60,7 @@ const documents = [
         description: '箱庭クラフトが提供するコンテンツの利用許諾範囲、およびユーザーがサーバー内で創作する建造物に関する取り扱いを定めます。',
         icon: '🎨',
         order: 4,
-        updatedAt: '2026-03-30'
+        updatedAt: '2026/05/10'
     },
     {
         id: 'ai-policy',
@@ -73,7 +73,7 @@ const documents = [
         description: '運営業務において生成AIを利用する際の基準と責任の所在を明らかにします。',
         icon: '🤖',
         order: 5,
-        updatedAt: '2026-03-21'
+        updatedAt: '2026/05/10'
     },
     {
         id: 'staff-terms',
@@ -86,7 +86,7 @@ const documents = [
         description: '運営チームが制作活動に専念し、円滑なコミュニティ運営を行うための環境を整備するためのルールです。',
         icon: '👥',
         order: 6,
-        updatedAt: '2026-03-20'
+        updatedAt: '2026/05/10'
     },
     {
         id: 'donation-policy',
@@ -99,7 +99,7 @@ const documents = [
         description: 'サーバー維持のためのサポート（寄付）を行う全ての利用者に適用される規約です。',
         icon: '💝',
         order: 7,
-        updatedAt: '2026-02-15'
+        updatedAt: '2026/05/10'
     },
 
     // ==================== ガイドライン ====================
@@ -114,7 +114,7 @@ const documents = [
         description: 'サーバーで快適に過ごすための基本的なルールとマナーをまとめています。',
         icon: '📋',
         order: 1,
-        updatedAt: '2026-02-15'
+        updatedAt: '2026/05/10'
     },
     {
         id: 'archit-guideline',
@@ -127,7 +127,7 @@ const documents = [
         description: '建築活動に関する具体的な規定です。すべてのプレイヤーは自らの箱庭を慈しむとともに、本ガイドラインを遵守する義務を負います。',
         icon: '🏗️',
         order: 2,
-        updatedAt: '2026-02-15'
+        updatedAt: '2026/05/10'
     },
     {
         id: 'public-facility',
@@ -140,7 +140,7 @@ const documents = [
         description: 'サーバー内の公共施設を適切に維持管理し、全てのプレイヤーが快適に利用するための基準です。',
         icon: '🏛️',
         order: 3,
-        updatedAt: '2026-02-15'
+        updatedAt: '2026/05/10'
     },
     {
         id: 'shop-guideline',
@@ -153,7 +153,7 @@ const documents = [
         description: 'サーバー内の経済活動および景観維持に関する詳細な基準です。',
         icon: '🛒',
         order: 4,
-        updatedAt: '2026-04-01'
+        updatedAt: '2026/05/10'
     },
 
     // ==================== 制限緩和表 ====================
@@ -168,7 +168,7 @@ const documents = [
         description: '生活ワールドにおけるサーバー負荷管理のためのランク別エンティティ上限基準です。',
         icon: '📊',
         order: 1,
-        updatedAt: '2026-03-07'
+        updatedAt: '2026/05/10'
     },
 
     // ==================== 一覧 ====================
@@ -183,7 +183,7 @@ const documents = [
         description: '箱庭クラフトでの生活を支える、大切なルールと指針の一覧です。',
         icon: '📚',
         order: 1,
-        updatedAt: '2026-04-23'
+        updatedAt: '2026/05/10'
     },
 ];
 
@@ -193,13 +193,13 @@ const categoryOrder = ['basic', 'guideline', 'limits', 'list'];
 // robots.txt
 const robotsTxt = `User-agent: *
 Allow: /
-Sitemap: https://docs.hknw.link/sitemap.xml`;
+Sitemap: https://docs.hakoniwa-craft.com/sitemap.xml`;
 
 // sitemap.xml生成
 function generateSitemap() {
     const urls = documents.map(doc => `
   <url>
-    <loc>https://docs.hknw.link${doc.path}</loc>
+    <loc>https://docs.hakoniwa-craft.com${doc.path}</loc>
     <lastmod>${doc.updatedAt}</lastmod>
     <priority>${doc.path === '/docs/terms' ? '1.0' : '0.8'}</priority>
   </url>`).join('');
@@ -267,9 +267,9 @@ function generateIndexPage() {
   <meta charset="UTF-8">
   <link rel="icon" href="/images/hakoniwa_craft_icon.png" type="image/png">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="HAKONIWA Linkの公式ドキュメント。利用規約、プライバシーポリシー、サーバールールなど。">
+  <meta name="description" content="箱庭クラフト (HAKONIWA CRAFT) の公式ドキュメント。利用規約、プライバシーポリシー、サーバールールなど。">
   <meta name="robots" content="index, follow">
-  <title>ドキュメント | HAKONIWA Link</title>
+  <title>ドキュメント | 箱庭クラフト (HAKONIWA CRAFT) </title>
   <style>
 /* ============================================================
    ドキュメント一覧ページ用スタイル（画像ロゴ対応版）
@@ -873,20 +873,21 @@ body {
   <div class="site-footer">
     <div class="footer-nav">
       <div class="footer-links">
-        <a href="/docs/tokushoho">📋 特定商取引法に基づく表記</a>
+        <a href="/docs/terms">📋 利用規約</a>
       </div>
       <div class="footer-links">
-        <a href="/docs/terms">📋 利用規約</a>
-        <a href="/docs/disclaimer">⚠️ 免責事項</a>
+        <a href="/docs/ai-policy">🤖 AIポリシー</a>
+        <a href="/docs/ban-policy">⚠️ BANポリシー</a>
         <a href="/docs/privacy">🔒 プライバシーポリシー</a>
       </div>
     </div>
     <div class="footer-info">
-      <p>© 2025-2026 箱庭クラフト All Rights Reserved.</p>
-      <p>Designed and Developed by HAKONIWA Studio.</p>
+      <p>©箱庭クラフト 2025-2026 All rights reserved.>©箱庭クラフト 2025-2026 All rights reserved. </p>
+      <p>© 2026 HAKONIWA Studio All Rights Reserved.<br>Designed and Developed by HAKONIWA Studio.</p>
+      <p><small>MinecraftはMojang ABの登録商標です。© 2026 Mojang AB. TM Microsoft Corporation.<br>当サービスはMojang ABとは一切関係ありません。</small></p>
       <p>
-        <a href="mailto:legal@hknw.link">legal@hknw.link</a> | 
-        <a href="mailto:abuse@hknw.link">abuse@hknw.link</a>
+        <a href="mailto:legal@hakoniwa-craft.com">legal@hakoniwa-craft.com</a> | 
+        <a href="mailto:abuse@hakoniwa-craft.com">abuse@hakoniwa-craft.com</a>
       </p>
     </div>
   </div>
@@ -1120,7 +1121,7 @@ function renderMarkdownToHtml(markdown, doc, currentPath) {
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="${escapeHtml(doc.description)}">
   <meta name="robots" content="index, follow">
-  <title>${escapeHtml(doc.title)} | HAKONIWA Link</title>
+  <title>${escapeHtml(doc.title)} | 箱庭クラフト (HAKONIWA CRAFT)</title>
   <style>
  /* ============================================================
    個別ドキュメントページ用スタイル（画像ロゴ対応版）
@@ -1846,20 +1847,21 @@ body {
   <div class="site-footer">
     <div class="footer-nav">
       <div class="footer-links">
-        <a href="/docs/tokushoho">📋 特定商取引法に基づく表記</a>
+        <a href="/docs/terms">📋 利用規約</a>
       </div>
       <div class="footer-links">
-        <a href="/docs/terms">📋 利用規約</a>
-        <a href="/docs/disclaimer">⚠️ 免責事項</a>
+        <a href="/docs/ai-policy">🤖 AIポリシー</a>
+        <a href="/docs/ban-policy">⚠️ BANポリシー</a>
         <a href="/docs/privacy">🔒 プライバシーポリシー</a>
       </div>
     </div>
     <div class="footer-info">
       <p>©箱庭クラフト 2025-2026 All rights reserved.>©箱庭クラフト 2025-2026 All rights reserved. </p>
       <p>© 2026 HAKONIWA Studio All Rights Reserved.<br>Designed and Developed by HAKONIWA Studio.</p>
+      <p><small>MinecraftはMojang ABの登録商標です。© 2026 Mojang AB. TM Microsoft Corporation.<br>当サービスはMojang ABとは一切関係ありません。</small></p>
       <p>
-        <a href="mailto:legal@hknw.link">legal@hknw.link</a> | 
-        <a href="mailto:abuse@hknw.link">abuse@hknw.link</a>
+        <a href="mailto:legal@hakoniwa-craft.com">legal@hakoniwa-craft.com</a> | 
+        <a href="mailto:abuse@hakoniwa-craft.com">abuse@hakoniwa-craft.com</a>
       </p>
     </div>
   </div>
@@ -2073,12 +2075,12 @@ async function build() {
     // 4. 画像ファイルのコピー（複数対応）
     const sourceImagesDir = path.join(__dirname, 'public', 'images');
     const destImagesDir = path.join(outputDir, 'images');
-    
+
     // 出力先ディレクトリが存在することを確認
     if (!fs.existsSync(destImagesDir)) {
         fs.mkdirSync(destImagesDir, { recursive: true });
     }
-    
+
     // コピーする画像ファイルのリスト
     const imageFiles = [
         'hakoniwa_craft_icon.png',   // ファビコン・ロゴ用
@@ -2089,12 +2091,12 @@ async function build() {
         // 'logo.png',              // 必要に応じて追加
         // 'ogp.png',               // OGP画像など
     ];
-    
+
     let copiedCount = 0;
     for (const imageFile of imageFiles) {
         const sourcePath = path.join(sourceImagesDir, imageFile);
         const destPath = path.join(destImagesDir, imageFile);
-        
+
         if (fs.existsSync(sourcePath)) {
             fs.copyFileSync(sourcePath, destPath);
             console.log(`  🖼️  Copied ${imageFile} to dist/images/`);
@@ -2103,11 +2105,11 @@ async function build() {
             console.log(`  ⚠️  Warning: ${imageFile} not found at`, sourcePath);
         }
     }
-    
+
     if (copiedCount === 0) {
         console.log('  ⚠️  No image files copied. Place images in public/images/');
     }
-    
+
     console.log('\n✅ Build completed! Output in dist/ directory');
 }
 
